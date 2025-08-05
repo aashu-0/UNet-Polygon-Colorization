@@ -1,6 +1,6 @@
 # Polygon Colorization with Conditional UNet
 
-## 🛠️ Installation
+## Installation
 
 **Installing uv**
 
@@ -89,3 +89,8 @@ n_classes = 3       # Output channels (RGB)
 num_colors = 8      # Number of supported colors
 bilinear = True     # bilinear upsampling
 ```
+## WandB Project
+The training runs are tracked in WandB project: [polygon-colorization](https://api.wandb.ai/links/aashu-0-mnit/bi08dcaw)
+
+## Inference Notebook
+Inference notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fU6WD7i2Pd17AmyYiy0tdk531-J-2yl8?usp=sharing)
